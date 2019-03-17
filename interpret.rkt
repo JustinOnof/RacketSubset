@@ -85,3 +85,19 @@
       (> (car x) (execute(car(cdr x) state)))
       (> (car x) (car(cdr x)))
     (error "Error in function division, x is not a pair.")))
+
+(define (eval_car x state))
+
+(define (eval_cdr x state))
+
+(define (eval_cons x state))
+
+(define (eval_pair? x state))
+
+(define (eval_if x state))
+
+(define (eval_lambda x state))
+
+(define (eval_let x state))
+
+(define (eval_letrec x state))
