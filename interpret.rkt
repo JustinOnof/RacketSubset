@@ -104,6 +104,15 @@
 
 (define (eval_pair? x state) (if (pair? x) #t #f))
 
+(define (eval_list? x state) (if (list? x) #t #f))
+
+(define (eval_null? x state) (if (null? x) #t #f))
+
+(define (eval_num? x state) (if (number? x) #t #f))
+
+(define (eval_num? x state) (if (empty? x) #t #f))
+
+
 (define (eval_if x state)
 ; (first ) () ()
 )
